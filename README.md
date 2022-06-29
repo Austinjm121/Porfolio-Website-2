@@ -9,6 +9,7 @@ Challenge Module 02
 ## Problems I ran into
 <details>
   <summary>Click to expand</summary> 
+  
 - Getting the bar inbetween the three "sections" to be shared.
   
 - I couldn't figure out how to stack the text. IE: About ontop of me and contact ontop of me.
