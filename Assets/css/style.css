@@ -1,0 +1,155 @@
+:root {
+    --darkBlue: #000E6B;
+    --lightBlue: #059EEC;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Changing background color of the webpage */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Setting header color, font, etc */
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--darkBlue);
+    color: var(--lightBlue);
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+
+/* Swapping header h1 font size and how it's displayed */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    background-color: var(--lightBlue);
+    color: var(--darkBlue);
+    padding-left: 10%;
+    padding-right: 1%;
+}
+
+/* Navigation menu at top of screen */
+.header nav {
+    padding-top: 15px;
+    margin-right: 75px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Setting color of fast travel links */
+header a {
+    color: var(--lightBlue);
+    border-bottom: 1px var(--lightBlue);
+    padding-bottom: 5px;
+}
+
+/* Setting default text size of website */
+p {
+    font-size: 16px;
+    color: var(--darkBlue)
+}
+
+h2 {
+    color: var(--darkBlue)
+}
+
+/* Main image settings */
+.introPic {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/24/63/CKuHwX.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subtitle {
+    background-color: var(--lightBlue);
+    position: absolute;
+    padding: 20px;
+    margin: 5.5cm 1cm
+}
+
+
+.introFunFact {
+    background-color: var(--lightblue);
+}
+
+aside a {
+    color: var(--darkBlue);
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+
+
+.columnTitle {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    font-size: 50px;
+    font-weight: 900;
+    border-right: 5px solid;
+    text-align: right;
+    width: 30%;
+}
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card{
+    padding: 20px;
+    border: 2px;
+    border-color: rgb(202, 196, 255);
+    border-style: ridge;
+    position: relative;
+    box-shadow: inset 0 0 0 0 #00FFF2;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  
+  }
+  
+  .card-holder a:hover{
+    box-shadow: inset 200px 0 0 0 #ff0000;
+  }
+  
+  .card-header{
+    font-size: larger;
+    color: #00FFF2;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: drew;
+    text-shadow: 2px 2px #010101;
+  }
+
